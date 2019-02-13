@@ -1,0 +1,108 @@
+.des-header {
+    background-color: rgb(13, 188, 194);
+    color: white;
+    margin-top: -15px;
+}
+
+.text-center {
+    text-align: center;
+    padding: 35px;
+}
+
+.bg-white {
+    margin-bottom: -10px !important;
+}
+
+.row {
+    padding: 20px 10px;
+}
+
+.gambar {
+    padding-left: 150px;
+}
+
+#gamis {
+    padding-left: 75px;
+}
+
+.kanan {
+    padding-right: 100px;
+}
+
+.row .bawah {
+    text-align: center;
+}
+
+#under {
+    padding-left: 323px;
+    padding-right: 121px;
+}
+
+.kotak_bawah {
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    margin: 10px;
+    height: 150px;
+}
+
+.apa {
+    width: auto !important;
+    height: auto ;
+}
+
+#api {
+    padding-top: 61px;
+}
+
+.kotak_bawah img {
+    width: 100px;
+    height: auto;
+    padding-top: 50px;
+}
+
+#new {
+    color: blueviolet;
+}
+
+#git {
+    padding-top: 10px;
+}
+
+#kaki {
+    background-color: rgb(13, 188, 194);
+    padding: 15px 10px 10px 10px;
+}
+
+#kaki_bawah {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.tengah_blog {
+    padding-left: 340px;
+    padding-right: 280px;
+}
+
+.hp {
+    width: 630px;
+}
+
+.gamb_mentee {
+    width: 220px;
+    height: 220px;
+}
+
+#our_mentee {
+    padding: -10px 0 -10px 0;
+    text-align: center;
+}
+
+.container {
+    padding-left: 145px;
+}
+
+.co-mentor {
+    padding-left: 150px;
+}
+

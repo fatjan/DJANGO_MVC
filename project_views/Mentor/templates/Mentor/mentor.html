@@ -1,0 +1,95 @@
+{% load static %}
+<html>
+    <head>   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{% static 'CSS/bootstrap.min.css'%}" rel="stylesheet" type="text/css">
+        <link href="{% static 'CSS/main.css'%}" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <head>   
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="{% static 'CSS/bootstrap.min.css'%}" rel="stylesheet" type="text/css">
+            <link href="{% static 'CSS/main.css'%}" rel="stylesheet" type="text/css">
+        </head>
+        <body>
+            <header>
+            <div class="container-fluid">
+            <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+                <h5 class="my-0 mr-md-auto font-weight-normal">Alpha Tech Academy</h5>
+                <nav class="my-2 my-md-0 mr-md-3">
+                    <a class="p-2 text-dark" href="{% url 'home' %}">Home</a>
+                    <a class="p-2 text-dark" href="{% url 'blog' %}">Blog</a>
+                    <a class="p-2 text-dark" href="{% url 'mentor' %}">Mentor</a>
+                    <a class="p-2 text-dark" href="{% url 'mentee' %}">Mentee</a>
+                    <a class="p-2 text-dark" href="{% url 'author' %}">Author</a>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 des-header text-center">
+                    <img src="{% static 'image/alpha-logo.png' %}"><br>
+                    <h1>Alpha Tech Academy</h1>
+                    <p>
+                        Alpha Tech Academy is a tech talent incubator that gives 
+                        everyone (even <br>non IT background) a chance to be a professional
+                        Tech Talent within 3 <br> months. Contact Person: Email: academy@alphatech.id
+                        Mobile phone:<br> 0877 9609 9530
+                    </p>
+                </div>
+            </div>
+            </div>
+            </header>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12" id="our_mentee">
+                    <h3>Our Mentor</h3>
+                </div>
+            </div>
+            <div class="co-mentor">
+            <div class="row">
+                <div clas="col-md-4 col-lg-4 col-sm-4">
+                    <img class="gamb_mentee" src="{% static 'image/people-andreas.png' %}">
+                </div>
+                <div class="col-md-8 col-lg-8 col-sm-8">
+                    <h3>Andreas Nugroho</h3>
+                    <h4>Software Ninja (5 years experience)</h4>
+                    <span>"Great place to learn about programming. Come join us!"</span>
+                </div>
+            </div>
+            <div class="row">
+            <div clas="col-md-4 col-lg-4 col-sm-4">
+                <img class="gamb_mentee" src="{% static 'image/people-ramdhan.png' %}">
+            </div>
+            <div class="col-md-8 col-lg-8 col-sm-8">
+                <h3>Ramdhan Hidayat</h3>
+                <h4>Master of Chaos (10 years experience)</h4>
+                <span>"We make this program with passion, hard work and heart. Let's get rock with us!"</span>
+            </div>
+            </div>
+            <div class="row">
+            <div clas="col-md-4 col-lg-4 col-sm-4">
+                <img class="gamb_mentee" src="{% static 'image/people-trimo.png' %}">
+            </div>
+            <div class="col-md-8 col-lg-8 col-sm-8">
+                <h3>Trimo Leksono</h3>
+                <h4>Magician (8 years experience)</h4>
+                <span>"The best place for who want to be a great IT talent."</span>
+            </div>
+            </div>
+            </div>
+        <footer>
+                <br><div class="container-fluid">
+                    <div class="col-md-12 col-lg-12 col-sm-12 text-center" id="kaki">
+                        <span>Our Product:</span>
+                        <img src="{% static 'image/logo-grey-alphapay.png' %}">
+                        <img src="{% static 'image/logo-grey-sepulsa.png' %}">
+                        <img src="{% static 'image/logo-grey-alphabill.png' %}">
+                    </div>
+                    <div class="col-md-12 col-lg-12 col-sm-12 text-center" id="kaki_bawah">
+                        <span>Contact Person: </span>
+                        <span>Mobile Phone: 0877 9609 9530. Email: </span>
+                        <span>academy@alphatech.id</span>
+                    </div>
+                </div>
+    
+        </footer>
+    </body>
+</html>
