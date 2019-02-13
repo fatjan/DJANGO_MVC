@@ -1,0 +1,32 @@
+{% extends 'Home/base.html' %}
+{%load static%}
+{% block content %}
+        <div class="row">
+            <div class="col-lg-3 col-md-3"></div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <img src="{{ blogging.images.url }}" alt="" width="630px">
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <span>
+                            {{ blogging.waktu_update }} 
+                            </span>
+                        </div>  
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12" style="text-align: right;">     
+                            <span>    
+                                {{ blogging.komentar }} Comment
+                            </span>
+                        </div>
+                    </div>
+                    <h2>{{ blogging.judul }}</h2>
+                    <p style="text-align: justify;">
+                            {{ blogging.deskripsi }}
+                    </p>
+                    <a href="{% url 'blog' %}">Kembali ke Blog</a>
+                </div>
+                <div class="col-lg-3 col-md-3"></div>        
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3"></div>
+        </div>
+{% endblock %}
